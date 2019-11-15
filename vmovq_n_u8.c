@@ -15,4 +15,6 @@ int main()
 {
 	uint8x16_t three = vmovq_n_u8(3);
 	print_uint8x16(&three, 16);
+
+	return 0;
 }
