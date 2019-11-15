@@ -23,4 +23,5 @@ int main()
 	print_uint8x16(&A, 16);
 	print_uint8x16(&B, 16);
 	print_uint8x16(&C, 16);
+	return 0;
 }

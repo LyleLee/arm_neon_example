@@ -6,7 +6,7 @@ void print_uint8x16(uint8x16_t *a, int n)
 	uint8_t *p = (uint8_t *)a;
 	int i;
 	for(i = 0; i < n; i++)	{
-		printf("%02d ", *(p+1));
+		printf("%02d ", *(p+i));
 	} 
 	printf("\n");
 }

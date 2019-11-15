@@ -36,5 +36,7 @@ int main()
 	//vst1q_u8(final, result);
 
 	//pr(final, 16);
+	
+	return 0;
 
 }
